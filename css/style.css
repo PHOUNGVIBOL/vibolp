@@ -335,24 +335,30 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: aqua;
     padding:100px 0 100px 0;
 }
 .footer-group .icon img{
+    margin-top: 10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #FFF;
+}
+.footer-left p{
+    color: #FFF;
+
+}
+.footer-left span{
+    color: orange;
 }
 .footer-right{
     display: flex;
     justify-content: space-evenly;
 }
 .footer-group h2{
+    margin-top: -40px;
     color: white;
-    margin-bottom: 30px;
-}
-.footer-group h2 p{
-    color: white;
+    margin-bottom: 40px;
 }
 .service{
     margin-left: 60px;
@@ -362,6 +368,6 @@ h2{
     margin-bottom: 20px;
 }
 .service p{
-    color:rgb(43, 41, 41);
+    color:rgb(82, 77, 77);
     margin-bottom: 10px;
 }
