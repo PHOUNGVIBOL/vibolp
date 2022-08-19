@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(9, 3, 46);
+    /* margin: 0 200px 0 200px; */
+    font-family: sans-serif;
+    height: 100vh;
+}
+nav{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+
+}
+.nav-left{
+    color: white;
+}
+.nav-left span{
+    color:orange;
+}
+.nav-center ul{
+    display: flex;
+    list-style: none;
+    color:white;
+    font-size: 20px;
+}
+.nav-center ul li{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.nav-center ul li:hover{
+    border-bottom:5px solid orange;
+}
+.nav-right{
+}
+.nav-right button,#main{
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: orange;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.nav-right span{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-size: 18px;
+    color: white;
+}
+/* ----------------step1---------------------- */
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.container-top img{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.247);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container-buttom img{
+    background-color: rgba(128, 128, 128, 0.507);
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container-buttom .material-icons{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.651);
+    margin-bottom: -10px;
+}
+
+main h1{
+    color: white;
+}
+main span{
+    color: orange;
+}
+main p{
+    color: gray;
+    margin: 10px;
+}
+.touch button{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding:10px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: rgb(18, 50, 121);
+    border-radius: 25px;
+    margin-right: 10px;
+
+}
+
+/* -----------Step2-------------- */
+
+.grid-item h1{
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-item .one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(6, 6, 65);
+    width: 430px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+.grid-item .one img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    background-color:rgba(128, 128, 128, 0.445);
+}
+.grid-item .one .name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.grid-item h4{
+    color:white;
+    margin-left: 10PX;
+    margin-right: 100px;
+}
+.grid-item p {
+    color: gray;
+}
+
+/* ----------Step4----------------- */
+.cost{
+    padding: 80px 0 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* background-color: aqua; */
+}
+h2{
+    color:white;
+}
+.cost button{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    color: #FFF;
+    margin-top: 10px;
+    padding:10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: orange;
+}
+.cost .item-fruit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 6, 88);
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.cost img{
+    width: 80px;
+    height: 80px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+.cost .icon{
+    display: flex;
+    align-items: center;
+}
+.cost span,.yellow{
+    color: orange;
+}
+.cost #fruit{
+    width: 200px;
+    height: 180px;
+    background: rgb(72, 72, 170);
+}
+#fruit img{
+    margin-top: -130px;
+}
+
+/* ----------Step5---------- */
+
+.advertise{
+    height: 50vh;
+    background: url(../pictures/bg\ fruit.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.advertise h1{
+    color: #FFF;
+}
+.advertise button{
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFF;
+    background: orange;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+
+/* ----------------Step6----------- */
+.center-group{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
+}
+.profie img{
+    margin-left: -200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.247);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.text{
+    margin-top: 50px;
+    margin-left: -200px;
+}
+.text h1{
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.text h3{
+    color: #FFF;
+    margin-bottom: 5px;
+}
+.text p{
+    color: rgba(128, 128, 128, 0.747);
+}
+.group-star{
+    display: flex;
+    align-items: center;
+}
+.group-star .star{
+    color: orange;
+}
+.group-star span{
+    margin-left: 5px;
+    color: rgba(128, 128, 128, 0.678);
+}
+.rank{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.arrow button {
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+ /* -----------Step7--------- */
+
+.advertise2{
+    background: rgb(4, 12, 56);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 40vh;
+}
+.ad-left{
+    height: 30vh;
+    display: flex;
+}
+.ad-left .text{
+    margin-left: 100px;
+}
+.advertise2 h2 span{
+    color: orange;
+}
+.ad-left hr{
+    margin-left: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.advertise2 span{
+    color: #FFF;
+}
+.advertise2 p{
+    color: #FFF;
+}
+.ad-right{
+    display: flex;
+    flex-direction: column;
+}
+.ad-right button{
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: none;
+    color: #FFF;
+    background-color: orange;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.ad-right .top{
+    background-color: rgb(97, 97, 187);
+}
+
+/* -------------Step7---------- */
+
+.footer-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    padding:100px 0 100px 0;
+}
+.footer-group .icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-group h2{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-group h2 p{
+    color: white;
+}
+.service{
+    margin-left: 60px;
+}
+.service h3{
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.service p{
+    color:rgb(43, 41, 41);
+    margin-bottom: 10px;
+}
